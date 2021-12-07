@@ -1,0 +1,23 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "Test-Module",
+          "class": "com.cn.testplugin.TestModule"
+        },
+        {
+          "hooksClass": "",
+          "plugins": [
+            {
+              "type": "module",
+              "name": "Yotta-Module",
+              "class": "com.cn.yottaplugin.YottaModule"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
